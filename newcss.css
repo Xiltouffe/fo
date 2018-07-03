@@ -4,17 +4,18 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 2 juil. 2018, 11:19:48
-    Author     : utilisateur
+    Created on : 3 juil. 2018, 09:08:41
+    Author     : Félix
 */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     background-color: #333;
     position: fixed;
-    width: 1340px;
+    width: 100%;
+    z-index:50 ;
 }
 
 li {
@@ -37,6 +38,58 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-#test{
-    height: 2000px;
+.footer {
+    position: fixed;
+    display : table-row;
+    height: 20px; 
+    bottom: 0px;
+    background-color: #333;
+    width: 100%;
+    color: white;
 }
+
+#test{
+    height: 200px;
+}
+
+#table{
+    height:700px;
+    width:650px;
+    border: ridge black;
+    position:absolute;
+    top: 300px;
+    right:40%;
+    background-color: grey;
+    margin-bottom: 10%;
+}
+#menu{
+    height:700px;
+    width:300px;
+    border:solid black;
+    position: absolute;
+    right: 1%;
+    top: 300px;
+    background-color: grey;
+    margin-bottom: 10%;
+}
+
+
+
+body{
+    background-image: url(https://previews.123rf.com/images/apostrophe/apostrophe1209/apostrophe120900046/15139232-abstract-blue-background-in-faded-pastel-vintage-grunge-background-texture-design-layers-of-transpar.jpg)
+}
+
+footer{
+        background:#ccc;
+
+position:absolute;
+
+bottom:0;
+
+width:100%;
+
+padding-top:50px;
+
+height:50px;
+}
+   
